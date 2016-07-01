@@ -30,7 +30,6 @@ namespace LoginSystem
         ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
         public DatePicker mDatePicker;
         public string senddate;
-        private CalendarView.IOnDateChangeListener onDateChangedListener;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
