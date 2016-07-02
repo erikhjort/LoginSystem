@@ -25,7 +25,7 @@ namespace LoginSystem
         private ListView mListView;
         private CalendarEventListAdapter mAdapter;
         private List<CalendarEvent> mEvents;
-        public Uri url = new Uri("http://192.168.1.125/calendarusers/LoadEvents.php");
+        public Uri url = new Uri("http://217.208.71.183/calendarusers/LoadEvents.php");
         public string usernamefromsp;
         ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
         public DatePicker mDatePicker;
