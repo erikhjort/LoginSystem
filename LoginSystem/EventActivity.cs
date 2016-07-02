@@ -31,7 +31,7 @@ namespace LoginSystem
 
             usernamefromsp = pref.GetString("Username", String.Empty);
             WebClient client = new WebClient();
-            Uri url = new Uri("http://192.168.1.125/calendarusers/LoadEventList.php");
+            Uri url = new Uri("http://217.208.71.183/calendarusers/LoadEventList.php");
             NameValueCollection parameters = new NameValueCollection();
             parameters.Add("username", usernamefromsp);
             client.UploadValuesCompleted += Client_UploadValuesCompleted;
