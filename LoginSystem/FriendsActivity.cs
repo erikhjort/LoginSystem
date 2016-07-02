@@ -24,7 +24,7 @@ namespace LoginSystem
         private FriendsListAdapter mAdapter;
         private List<Friend> mFriends;
         ISharedPreferences pref = Application.Context.GetSharedPreferences("UserInfo", FileCreationMode.Private);
-        public Uri url = new Uri("http://192.168.1.125/calendarusers/LoadFriends.php");
+        public Uri url = new Uri("http://217.208.71.183/calendarusers/LoadFriends.php");
         public string usernamefromsp;
 
         
